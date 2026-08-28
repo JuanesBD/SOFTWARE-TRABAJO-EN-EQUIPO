@@ -19,6 +19,15 @@ def multiplicar():
     resultado = numero1 * numero2
     print(f"Resultado: {resultado}")
 
+def dividir():
+    numero1 = float(input("Ingrese el primer número: "))
+    numero2 = float(input("Ingrese el segundo número: "))
+    if numero2 != 0:
+        resultado = numero1 / numero2
+        print(f"Resultado: {resultado}")
+    else:
+        print("Error: No se puede dividir entre cero.")
+
 
 
 def main():
