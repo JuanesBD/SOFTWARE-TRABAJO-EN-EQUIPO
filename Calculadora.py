@@ -19,7 +19,11 @@ def multiplicar():
     resultado = numero1 * numero2
     print(f"Resultado: {resultado}")
 
-
+def restar():
+    numero1 = float(input("Ingrese el primer número: "))
+    numero2 = float(input("Ingrese el segundo número: "))
+    resultado = numero1 - numero2
+    print(f"Resultado: {resultado}")
 
 def main():
     while True:
